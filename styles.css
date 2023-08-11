@@ -1,1 +1,26 @@
 /* your code */
+table
+{
+	border:1px solid lightgray;
+	text-align:center;
+	border-collapse: collapse;
+	
+}
+
+td{
+	padding:15px;
+	width:200px;
+}
+
+
+
+thead,th{
+	background-color:darkblue;
+	color:white;
+
+}
+
+tr:nth-child(odd){
+	background-color:lightgray;
+	
+}
